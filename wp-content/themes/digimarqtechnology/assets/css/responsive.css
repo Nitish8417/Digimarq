@@ -1,0 +1,203 @@
+@media (min-width: 991px) {
+  .mobile-menu.active {
+    display: none;
+  }
+  a.mobile {
+    display: none;
+  }
+  
+  .main-contact-form input.wpcf7-form-control.wpcf7-submit {
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 1200px) {
+  .services-header {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .who-we-are .content-wrapper {
+    gap: 40px;
+  }
+  .who-we-are .image-section img {
+    max-height: 400px;
+    height: 100%;
+    max-width: 400px;
+  }
+  .who-we-are .overlay-image {
+    bottom: -8%;
+  }
+  .who-we-are img.overlay-image-benefits {
+    top: -15%;
+  }
+  .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #ffb900;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+}
+  .main-contact-form input.wpcf7-form-control.wpcf7-submit {
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 992px) {
+  
+  .hamburger-menu {
+    display: block;
+  }
+  .main-header-block .site-logo {
+    max-width: 130px;
+  }
+  a.btn.contact-btn {
+    display: none;
+  }
+  .contact-btn {
+    margin-left: auto;
+  }
+  .header-right {
+    display: none;
+  }
+  .contact-btn a {
+    display: flex;
+    align-items: center;
+  }
+  .close {
+    display: none;
+  }
+  a.mobile svg.size-6 {
+    width: 25px;
+    height: 25px;
+    color: #1d2327;
+  }
+  .section-bg-img .main-carrers-block {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .main-carrers-block .img-carrers {
+    width: 100%;
+    border: 0px solid red;
+    border-radius: 5%;
+    margin: inherit;
+    overflow: unset;
+  }
+  .main-carrers-block .img-carrers img {
+    border-radius: 28px;
+  }
+
+  /* contact  */
+  .maincontact-form {
+    gap: 25px;
+    flex-direction: column;
+  }
+  .awsm-job-single-wrap {
+    margin-bottom: 0;
+    border: 1px solid #1d23270f;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .awsm-job-single-wrap.awsm-col-2 .awsm-job-content {
+    width: 100%;
+    gap: 30px;
+  }
+  .who-we-are .content-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .who-we-are .image-section img {
+    width: 100%;
+    border-radius: 15px;
+    max-height: 100%;
+    max-width: max-content;
+    box-shadow: none;
+  }
+  .mission-vision .about-block-info {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 50px;
+  }
+  .main-contact-form input.wpcf7-form-control.wpcf7-submit {
+    margin-bottom: 10px;
+}
+}
+
+
+@media (max-width: 768px) {
+  section {
+    padding: 25px 0;
+  }
+
+  .mission-vision .about-block-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer .footer-sub-block {
+    gap: 20px;
+
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer .footer-subscribe {
+    flex-direction: column;
+  }
+  .main-contact-form div p {
+    flex-direction: column;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #ffb900;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-subscribe .wpcf7 form.invalid .wpcf7-response-output, .footer-subscribe .wpcf7 form.unaccepted .wpcf7-response-output, .footer-subscribe .wpcf7 form.payment-required .wpcf7-response-output {
+            width: 95% !important;
+        bottom: auto !important;
+        font-size:14px;
+}
+.footer-subscribe form.wpcf7-form.sent .wpcf7-response-output {
+    font-size: 14px;
+    width: 90% !important;
+}
+
+.logo-item {
+    min-height: 100px !important;
+    padding: 0 20px !important;
+}
+.social-links img {
+   
+    padding: 10px !important;
+    
+}
+
+.info-block:nth-last-child(-n + 1) {
+  
+    width: auto !important;
+
+}
+.info-block {
+    
+    width: 100% !important;
+}
+
+}
+
+@media (max-width: 500px) {
+  .main-services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services-update {
+    padding: 15px;
+  }
+
+  .sub-services-info h2 {
+    font-size: 1.2rem;
+  }
+}
